@@ -88,7 +88,13 @@ img {
     object-fit: cover;
     margin: 16px auto;
     border: 3px solid #00f7ff;
+    transition: transform .2s;
 }
+
+header img:hover{
+    transform:scale(1.15);
+}
+
 
 table {
     width: 100%;
